@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "PromptBold";
+    src: url(../fonts/Prompt-Bold.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LatoItalic";
+    src: url(../fonts/Lato-Italic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LatoBoldItalic";
+    src: url(../fonts/Lato-BoldItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(../fonts/Roboto-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "RobotoBold";
+    src: url(../fonts/Roboto-Bold.woff);
+    font-weight: normal;
+    font-style: normal;
+}

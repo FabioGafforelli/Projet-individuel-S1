@@ -1,0 +1,21 @@
+.footer {
+    background-color: #063874;
+    color: var(--gray-white);
+    padding: 64px var(--space3x);
+  }
+
+  .footer a {
+      color: var(--gray-600);
+      text-decoration: none;  
+  }
+
+  .footer__menu,
+  .footer__title {
+      text-transform: uppercase;
+      font-size: var(--text-sm);
+  }
+
+  .footer__list {
+      display: flex;
+      gap: var(--space3x);
+  }

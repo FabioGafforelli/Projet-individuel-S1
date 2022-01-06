@@ -1,0 +1,118 @@
+body
+{
+    background-color: #034BA0; 
+}
+.France{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.Anglais{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+.Ligne {
+    position: absolute;
+    top: 50px;
+    right: 50%;
+}
+.Hertha {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.Logo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.Ligne{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    right: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: var(--font-prompt-bold);
+    color: #f4FF00;
+}
+h2{
+    color: #f4FF00;
+}
+p{
+    color: white;
+}
+.li2{
+    color:#fff
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #063874;
+    color: #fff;
+}
+.center{
+    text-align: center;
+  }
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.imgcenter2 {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.li1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #034BA0;
+    color: #fff;
+    text-align: center;
+    border: solid;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,700;1,300;1,700&family=Space+Mono:ital@0;1&display=swap');
+
+/* Vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";
+
+/* Base */
+@import "base/main.css";
+@import "base/media.css";
